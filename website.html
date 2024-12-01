@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ka">
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>myhome</title>
+        <link rel="icon" href="images/icon.svg" />
+    </head>
+    <body>
+        <h1>ბინები</h1>
+        <form>
+            <label>გარიგების ტიპი:</label><br />
+            <input type="radio" id="forSale" name="forSale" />
+            <label for="forSale">იყიდება</label><br />
+            <input type="radio" id="forRent" name="forRent" />
+            <label for="forRent">ქირავდება</label><br />
+            <input type="radio" id="forPledge>" name="forPledge" />
+            <label for="forPledge">გირავდება</label><br />
+
+            <br />
+
+            <label>უძრავი ქონების ტიპი:</label><br />
+            <input type="radio" id="apartments" name="apartments" />
+            <label for="apartments">ბინები</label><br />
+            <input type="radio" id="homes" name="homes" />
+            <label for="homes">სახლები</label><br />
+            <input type="radio" id="land" name="land" />
+            <label for="land">მიწის ნაკვეთი</label><br />
+
+            <br />
+
+            <label>ვალუტა:</label><br />
+            <input type="radio" id="lari" name="lari" />
+            <label for="lari">ლარი</label><br />
+            <input type="radio" id="usd" name="usd" />
+            <label for="usd">დოლარი</label><br />
+
+            <br />
+
+            <label for="minP" for="maxP">ფასი (მინიმალური და მაქსიმალური):</label><br />
+            <input type="number" id="minP" name="minP" placeholder="მინ. ფასი" />
+            <input type="number" id="maxP" name="maxP" placeholder="მაქს. ფასი" />
+
+            <br />
+            <br />
+
+            <label>ფართი (კვ.მ):</label><br />
+            <input type="number" id="minSpace" name="minSpace" placeholder="მინ." />
+            <input type="number" id="maxSpace" name="maxSpace" placeholder="მაქს." />
+
+            <br />
+            <br />
+
+            <label for="numOfrooms">ოთახების რაოდენობა:</label><br />
+            <select id="numOfrooms" name="numOfrooms">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select>
+
+            <br />
+            <br />
+
+            <label>ქონების სტატუსი</label><br />
+            <input type="checkbox" id="new" name="new" />
+            <label for="new">ახალი აშენებული</label><br />
+            <input type="checkbox" id="old" name=old />
+            <label for="old">ძველი აშენებული</label><br />
+            <input type="checkbox" id="current" name="current" />
+            <label for="current">მშენებარე</label><br />
+
+            <br />
+
+            <input type="submit" value="ძებნა" />  
+        </form>
+    </body>
+</html>
